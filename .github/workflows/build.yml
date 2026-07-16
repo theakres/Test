@@ -20,10 +20,11 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      # Этот экшен сам настроит правильный Gradle и запустит сборку без нужды в локальном gradlew
+      # Явно указываем gradle-version, чтобы экшен не искал wrapper-файлы в репозитории
       - name: Setup and Run Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
+          gradle-version: 8.4
           arguments: assembleRelease
 
       - name: Upload APK
