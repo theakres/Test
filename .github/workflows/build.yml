@@ -20,10 +20,6 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
-      # Создаем пустой файл-заглушку, чтобы Gradle не ругался на его отсутствие
-      - name: Create Fake Keystore File
-        run: touch my-upload-key.jks
-
       - name: Setup and Run Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
@@ -35,4 +31,3 @@ jobs:
         with:
           name: app-release
           path: app/build/outputs/apk/release/
-          
