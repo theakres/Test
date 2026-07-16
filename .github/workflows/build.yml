@@ -20,6 +20,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      # Удаляем старую кривую папку gradle и генерируем чистый Wrapper с нуля
+      - name: Generate Fresh Gradle Wrapper
+        run: |
+          rm -rf gradle/wrapper
+          gradle wrapper --gradle-version 8.2
+
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
