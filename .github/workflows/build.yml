@@ -20,15 +20,19 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
+      # Создаем пустой файл-заглушку, чтобы Gradle не ругался на его отсутствие
+      - name: Create Fake Keystore File
+        run: touch my-upload-key.jks
+
       - name: Setup and Run Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: 9.3.1
-          # Собираем только неподписанный APK, игнорируя настройки signingConfigs
-          arguments: assembleRelease -Pandroid.injected.signing.store.file=""
+          arguments: assembleRelease
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-release
-          path: app/build/outputs/apk/release/app-release-unsigned.apk
+          path: app/build/outputs/apk/release/
+          
