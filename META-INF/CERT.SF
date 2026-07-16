@@ -1,0 +1,197 @@
+Signature-Version: 1.0
+Created-By: Apktool M
+SHA1-Digest-Manifest: RDX1ZMpCnyzoVadOSH9tvod99kE=
+X-Android-APK-Signed: 2
+
+Name: .env.example
+SHA1-Digest: dgetQ0EbXo+KOC/l2GTSgfpowqo=
+
+Name: .gitignore
+SHA1-Digest: 7f8p8sQJaMySOLw+9vXv0SfEY10=
+
+Name: README.md
+SHA1-Digest: zMVT7jeysuQQWvjxfbg8/4HWhEA=
+
+Name: app/.gitignore
+SHA1-Digest: QDlZrxm9a8ASOA/bd15SPgrSWuI=
+
+Name: app/build.gradle.kts
+SHA1-Digest: vnp2nhFnAvr0RWRzXJLagdhUdxw=
+
+Name: app/proguard-rules.pro
+SHA1-Digest: ks6rn14Epoh1v1aHV0kId2gOqjk=
+
+Name: app/src/androidTest/java/com/example/ExampleInstrumentedTest.kt
+SHA1-Digest: LQBYqy0WLQ2bs6b38yEeAhub+Vg=
+
+Name: app/src/main/AndroidManifest.xml
+SHA1-Digest: zGOouVqeej1ZPpq8lij6Eh0ZnPg=
+
+Name: app/src/main/java/com/example/MainActivity.kt
+SHA1-Digest: WU84x35qCFHIQwMUV7DzmeqAe/Y=
+
+Name: app/src/main/java/com/example/data/database/CalculatorDatabase.k
+ t
+SHA1-Digest: CbL0oVOXWRv70zioJfDXJ3dKM+w=
+
+Name: app/src/main/java/com/example/data/database/HistoryDao.kt
+SHA1-Digest: Wujgn+3ztp2MoyYKwbdxbVk23q0=
+
+Name: app/src/main/java/com/example/data/model/HistoryItem.kt
+SHA1-Digest: alS7tuFSLVKQgZOCvZH+jvwy74w=
+
+Name: app/src/main/java/com/example/data/network/GeminiClient.kt
+SHA1-Digest: kBMVPlsKrBAHPEw9f2j24QTkEho=
+
+Name: app/src/main/java/com/example/data/repository/HistoryRepository.
+ kt
+SHA1-Digest: B7nlbyYFmxUV0zThsmqW6U3b/xM=
+
+Name: app/src/main/java/com/example/ui/screens/BmiScreen.kt
+SHA1-Digest: xgzf/0fTyu1VtgMTFMtgxI31Cyk=
+
+Name: app/src/main/java/com/example/ui/screens/CalculatorScreen.kt
+SHA1-Digest: wWdDdRiHtehOhbiHEQx/NXgG0Mc=
+
+Name: app/src/main/java/com/example/ui/screens/ConverterScreen.kt
+SHA1-Digest: w2ukOUyCfchL4ierTZWAsUzVAng=
+
+Name: app/src/main/java/com/example/ui/screens/DateCalcScreen.kt
+SHA1-Digest: n6T49btMg2KwyOdk5+Y4lGtTj0s=
+
+Name: app/src/main/java/com/example/ui/screens/SettingsScreen.kt
+SHA1-Digest: 2qS8QXg2MJ2wjGHHYey78wD00pc=
+
+Name: app/src/main/java/com/example/ui/screens/ToolsHubScreen.kt
+SHA1-Digest: 0kcYaAYb2zdRv01jNZ1hxFC4hB4=
+
+Name: app/src/main/java/com/example/ui/theme/Color.kt
+SHA1-Digest: D2Ee73DSsFGeAOxEoqoquCkqO1U=
+
+Name: app/src/main/java/com/example/ui/theme/Theme.kt
+SHA1-Digest: F9WPuLMtnL3Da3MKG6+ljj6gNvw=
+
+Name: app/src/main/java/com/example/ui/theme/Type.kt
+SHA1-Digest: mGthj+T6LedDdGaOWlj2TyQuQyM=
+
+Name: app/src/main/java/com/example/ui/viewmodel/CalculatorViewModel.k
+ t
+SHA1-Digest: r1QMCeJ21XPaSrgM37MqAcP3KhA=
+
+Name: app/src/main/java/com/example/util/MathEvaluator.kt
+SHA1-Digest: MGoyaS/mXJRHHN2nCl0R1VLlNDM=
+
+Name: app/src/main/java/com/example/util/Translator.kt
+SHA1-Digest: xQZdJpJYwgw99x8kgVBPvzLiVMw=
+
+Name: app/src/main/res/drawable/ic_launcher_background.xml
+SHA1-Digest: Nu/WVv42XHrzvFsQht3FhWrCGBU=
+
+Name: app/src/main/res/drawable/ic_launcher_foreground.xml
+SHA1-Digest: 68SEMIB79LXI/bTp6550bTKM9qs=
+
+Name: app/src/main/res/drawable/img_rat_app_icon_1784217426869.jpg
+SHA1-Digest: 8qVYQWpQiHP4jOa+LrZtZbht3rE=
+
+Name: app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+SHA1-Digest: TjWupKLJeDZTzET2FEmaf1IYfP0=
+
+Name: app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+SHA1-Digest: tamKsduE/NfF1U5KBJZVgROvJP4=
+
+Name: app/src/main/res/mipmap-hdpi/ic_launcher.webp
+SHA1-Digest: v29VsDdSz+KlUFSFhmlfmGYtxQQ=
+
+Name: app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
+SHA1-Digest: K+z8erj1aWAu+sDNEbCs15qmW6M=
+
+Name: app/src/main/res/mipmap-mdpi/ic_launcher.webp
+SHA1-Digest: O8F6mOblY++rVPF01/JuHiI4mBI=
+
+Name: app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
+SHA1-Digest: zcVkGUX/feUzuBhVdu2LHMNpelU=
+
+Name: app/src/main/res/mipmap-xhdpi/ic_launcher.webp
+SHA1-Digest: X2/LTPEN47I6fc8wheEgz1Goztg=
+
+Name: app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+SHA1-Digest: jvgrheIV5lnoHUUr8Zlfrih8IOE=
+
+Name: app/src/main/res/mipmap-xxhdpi/ic_launcher.webp
+SHA1-Digest: ePChTR9JkDBtTBegc0Md6/80Zhk=
+
+Name: app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp
+SHA1-Digest: w7J7SSvMs4fwDHvCM6UverlAxog=
+
+Name: app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp
+SHA1-Digest: kbKjg39F/4riFN3iLvVvV7Wapr0=
+
+Name: app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp
+SHA1-Digest: q2p+yI+K16F3r+0qogjmzBJlly4=
+
+Name: app/src/main/res/values-be/strings.xml
+SHA1-Digest: aQ3h6NXrce5qO9OgEMhN3hfv03Y=
+
+Name: app/src/main/res/values-de/strings.xml
+SHA1-Digest: oXmybuXr13Tws0617CqofXwh8W0=
+
+Name: app/src/main/res/values-es/strings.xml
+SHA1-Digest: lt97VilhOYFu86cN/AtR44B3k9g=
+
+Name: app/src/main/res/values-kk/strings.xml
+SHA1-Digest: l11ZXaytcD1jjmcMn917ER+qDgQ=
+
+Name: app/src/main/res/values-pl/strings.xml
+SHA1-Digest: gxWi/sBnpLGgj7Ns6EaEVvTHQZc=
+
+Name: app/src/main/res/values-ru/strings.xml
+SHA1-Digest: lRHeV4Ru40SGsjr6FQTllYDH42w=
+
+Name: app/src/main/res/values-uk/strings.xml
+SHA1-Digest: 4otcDU4lPjDNOWsxXpkyZmop0AA=
+
+Name: app/src/main/res/values/colors.xml
+SHA1-Digest: h4YT0zMBqYYfFaK0NwoflP3y3Eg=
+
+Name: app/src/main/res/values/strings.xml
+SHA1-Digest: uu1+VVpLXH1poFINgq9P/Gl8UoQ=
+
+Name: app/src/main/res/values/themes.xml
+SHA1-Digest: Wn6SmSvh4npHcO/Ouv+u0TaQEqw=
+
+Name: app/src/main/res/xml/backup_rules.xml
+SHA1-Digest: qo8qxYQm30s52Dyr0atmXp0EmxA=
+
+Name: app/src/main/res/xml/data_extraction_rules.xml
+SHA1-Digest: L3jhFxj2NP5cdxUOrAO9Jtjhxi0=
+
+Name: app/src/test/java/com/example/ExampleRobolectricTest.kt
+SHA1-Digest: wX9yU0q3POArT50UWwKwilB7lFA=
+
+Name: app/src/test/java/com/example/ExampleUnitTest.kt
+SHA1-Digest: O2/gTt2bhYuRqJnGcvJ7dM2vjC8=
+
+Name: app/src/test/java/com/example/GreetingScreenshotTest.kt
+SHA1-Digest: 5pQQ35KFAsdbfelsWjDhCBpNk2M=
+
+Name: app/src/test/screenshots/greeting.png
+SHA1-Digest: 0qQuWz/hkpEo1Py02PV3pFFLDRY=
+
+Name: assets/.aistudio/.gitignore
+SHA1-Digest: iWAEU2lm2CqTBBHsr3p+P8Q6OmI=
+
+Name: build.gradle.kts
+SHA1-Digest: ccjeyLYWEt+X+D2wiz1Ug/FK59M=
+
+Name: gradle.properties
+SHA1-Digest: PfYQb7MQwcIMWOhSdMW9Si+EwoI=
+
+Name: gradle/libs.versions.toml
+SHA1-Digest: 2w+nEPBBaHjn6f4v1EseQPn7ns0=
+
+Name: metadata.json
+SHA1-Digest: DFdqhBF2J6eR1l461w0Ktm6tA/g=
+
+Name: settings.gradle.kts
+SHA1-Digest: X04CWjs5Se/6y7ltansm/7S1SZw=
+

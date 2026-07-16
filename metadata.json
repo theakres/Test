@@ -1,0 +1,6 @@
+{
+  "name": "MD3 calc",
+  "description": "A beautiful Material Design 3 style calculator with real-time currency, length, temperature, and other translators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
