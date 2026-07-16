@@ -20,21 +20,26 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      # Удаляем старую кривую папку gradle и генерируем чистый Wrapper с нуля
+      # Генерируем Gradle более свежей версии (8.4), которая лучше дружит с JDK 17
       - name: Generate Fresh Gradle Wrapper
         run: |
           rm -rf gradle/wrapper
-          gradle wrapper --gradle-version 8.2
+          gradle wrapper --gradle-version 8.4
 
+      # Дополнительно очистим кэш Gradle перед сборкой на всякий случай
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
+      # Запускаем сборку с отключенным кэшем конфигурации (--no-configuration-cache)
       - name: Build APK (release)
-        run: ./gradlew assembleRelease
+        run: ./gradlew assembleRelease --no-configuration-cache
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
+          name: app-release
+          path: app/build/outputs/apk/release/app-release-unsigned.apk
+          with:
           name: app-release
           path: app/build/outputs/apk/release/app-release-unsigned.apk
           
